@@ -1,0 +1,58 @@
+import requests
+
+try:
+    data={
+            "category": "Platform",
+            "name": "Mario",
+            "rating": "Mature",
+            "releaseDate": "2012-05-04",
+            "reviewScore": 85
+        }
+
+
+    #make a get request to a api endpoint
+
+    response=requests.post("https://videogamedb.uk:443/api/v2/videogame",json=data)
+    print(response)
+
+    #check if the status code is 200ok
+    if response.status_code==200:
+        print("status code is 200ok")
+        #parse the json file
+        data=response.json()
+        print(data)
+
+    else: print(f"error: received status code {response.status_code}")
+
+except requests.exception.RequestException as e:
+    print(f"An error occured:{e}")
+
+
+try:
+    #make a get request to a api endpoint
+
+    data = {
+        "id": 0,
+        "title": "string",
+        "price": 0.1,
+        "description": "string",
+        "category": "string",
+        "image": "http://example.com"
+    }
+
+    response=requests.post("https://fakestoreapi.com/products",json=data)
+    print(response)
+
+
+
+    #check if the status code is 200ok
+    if response.status_code==201:
+        print("status code is 200ok")
+        #parse the json file
+        data=response.json()
+        print(data)
+
+    else: print(f"error: received status code {response.status_code}")
+
+except requests.exception.RequestException as e:
+    print(f"An error occured:{e}")

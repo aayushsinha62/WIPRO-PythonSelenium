@@ -1,0 +1,23 @@
+1771574959346	geckodriver	INFO	Listening on 127.0.0.1:64450
+1771574962467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64451" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KIIT01\\AppData\\Local\\Temp\\rust_mozprofileNiHlU1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771574962721	Marionette	INFO	Marionette enabled
+1771574962813	Marionette	INFO	Listening on port 62862
+WebDriver BiDi listening on ws://127.0.0.1:64451
+Read port: 62862
+1771574962939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-NVJT9K1HZ2&cx=c&gtm=4e62i1, line 271: Script terminated by timeout at:
+Lb@https://www.googletagmanager.com/gtag/js?id=G-NVJT9K1HZ2&cx=c&gtm=4e62i1:271:159
+OE@https://www.googletagmanager.com/gtag/js?id=G-NVJT9K1HZ2&cx=c&gtm=4e62i1:830:135
+PE/<@https://www.googletagmanager.com/gtag/js?id=G-NVJT9K1HZ2&cx=c&gtm=4e62i1:830:111
+
+1771575233492	Marionette	INFO	Stopped listening on port 62862
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

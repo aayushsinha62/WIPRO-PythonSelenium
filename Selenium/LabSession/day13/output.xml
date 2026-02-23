@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.0 on win32)" generated="2026-02-19T12:02:32.773637" rpa="false" schemaversion="5">
+<suite id="s1" name="Dropdown" source="C:\Users\KIIT01\PycharmProjects\Selenium\LabSession\day13\dropdown.robot">
+<test id="s1-t1" name="Verify drop downs" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:32.951886" level="INFO">Opening browser 'chrome' to base url 'https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php'.</msg>
+<msg time="2026-02-19T12:02:44.701039" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-19T12:02:32.951886" elapsed="13.595663"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.548556" elapsed="0.034737"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=state</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.583293" elapsed="0.029250"/>
+</kw>
+<kw name="Get Selected List Labels" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:46.716515" level="INFO">@{labels} = [ Choose State ]</msg>
+<var>@{labels}</var>
+<arg>id=state</arg>
+<doc>Returns labels of selected options from selection list ``locator``.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.612543" elapsed="0.103972"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-19T12:02:46.717518" level="INFO">['Choose State']</msg>
+<arg>${labels}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.717518" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:46.717518" level="INFO">Selecting options from selection list 'id=state' by label Uttar Pradesh.</msg>
+<arg>id=state</arg>
+<arg>Uttar Pradesh</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.717518" elapsed="0.143260"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:48.861342" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:46.860778" elapsed="2.000564"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:48.862357" level="INFO">Selecting options from selection list 'id=state' by index 2.</msg>
+<arg>id=state</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2026-02-19T12:02:48.862357" elapsed="0.084011"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:50.946665" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:48.946368" elapsed="2.000297"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:50.947673" level="INFO">Selecting options from selection list 'id=state' by value Uttar Pradesh.</msg>
+<arg>id=state</arg>
+<arg>Uttar Pradesh</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-02-19T12:02:50.947673" elapsed="0.056761"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:53.005556" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:51.004434" elapsed="2.001122"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=city</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-19T12:02:53.005556" elapsed="0.025627"/>
+</kw>
+<kw name="Get Selected List Labels" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:53.093530" level="INFO">@{labels} = [ Uttar Pradesh ]</msg>
+<var>@{labels}</var>
+<arg>id=state</arg>
+<doc>Returns labels of selected options from selection list ``locator``.</doc>
+<status status="PASS" start="2026-02-19T12:02:53.031183" elapsed="0.062347"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-19T12:02:53.094550" level="INFO">['Uttar Pradesh']</msg>
+<arg>${labels}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-19T12:02:53.094550" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:53.094550" level="INFO">Selecting options from selection list 'id=city' by label Lucknow.</msg>
+<arg>id=city</arg>
+<arg>Lucknow</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-02-19T12:02:53.094550" elapsed="0.059164"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:55.154987" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:53.154714" elapsed="2.000273"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:55.155577" level="INFO">Selecting options from selection list 'id=city' by index 2.</msg>
+<arg>id=city</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2026-02-19T12:02:55.155577" elapsed="0.049035"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:57.204775" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:55.204612" elapsed="2.000163"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:02:57.205279" level="INFO">Selecting options from selection list 'id=city' by value Lucknow.</msg>
+<arg>id=city</arg>
+<arg>Lucknow</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-02-19T12:02:57.205279" elapsed="0.035604"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:02:59.242770" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:02:57.240883" elapsed="2.001887"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-19T12:02:59.242770" elapsed="2.208348"/>
+</kw>
+<status status="PASS" start="2026-02-19T12:02:32.950789" elapsed="28.500329"/>
+</test>
+<status status="PASS" start="2026-02-19T12:02:32.774574" elapsed="28.678049"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Dropdown" id="s1" pass="1" fail="0" skip="0">Dropdown</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-19T12:02:44.701039" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+</errors>
+</robot>

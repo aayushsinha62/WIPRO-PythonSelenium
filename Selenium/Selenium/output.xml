@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.0 on win32)" generated="2026-02-20T15:54:15.523030" rpa="false" schemaversion="5">
+<suite id="s1" name="Framespractice" source="C:\Users\KIIT01\PycharmProjects\Selenium\Selenium\framespractice.robot">
+<test id="s1-t1" name="Verify iframe" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-20T15:54:15.701900" level="INFO">Opening browser 'firefox' to base url 'https://www.tutorialspoint.com/selenium/practice/frames.php'.</msg>
+<arg>${url}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-20T15:54:15.701900" elapsed="7.701338"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-20T15:54:23.403238" elapsed="0.291276"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>3s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-02-20T15:54:23.695540" elapsed="0.006766"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-02-20T15:54:23.703221" level="INFO">Selecting frame 'xpath://body//main//iframe[1]'.</msg>
+<arg>xpath://body//main//iframe[1]</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-02-20T15:54:23.703221" elapsed="0.031707"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-20T15:54:25.736628" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-20T15:54:23.734928" elapsed="2.001700"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T15:54:25.762451" level="INFO">${text1} = Selenium - Automation Practice Form
+Selenium Tutorial
+New Tab
+Sample New Tab</msg>
+<var>${text1}</var>
+<arg>xpath://body</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T15:54:25.736628" elapsed="0.025823"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-20T15:54:27.763643" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-20T15:54:25.763446" elapsed="2.000197"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Frame 1 Text:</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-20T15:54:27.764867" elapsed="0.001047"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-20T15:54:27.765914" elapsed="0.001050"/>
+</kw>
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-02-20T15:54:27.768565" elapsed="0.005014"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-02-20T15:54:27.775098" level="INFO">Selecting frame 'xpath://body//main//iframe[2]'.</msg>
+<arg>xpath://body//main//iframe[2]</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-02-20T15:54:27.775098" elapsed="0.010120"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-20T15:54:29.786841" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-20T15:54:27.786256" elapsed="2.000585"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T15:54:29.806566" level="INFO">${text2} = Selenium - Automation Practice Form
+Selenium Tutorial
+New Tab
+Sample New Tab</msg>
+<var>${text2}</var>
+<arg>xpath://body</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T15:54:29.786841" elapsed="0.019725"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-20T15:54:31.807433" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-20T15:54:29.806566" elapsed="2.000867"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Frame 2 Text:</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-20T15:54:31.808517" elapsed="0.000613"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-20T15:54:31.809130" elapsed="0.001011"/>
+</kw>
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-02-20T15:54:31.810141" elapsed="0.005608"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-20T15:54:31.815749" elapsed="3.757541"/>
+</kw>
+<status status="PASS" start="2026-02-20T15:54:15.700868" elapsed="19.872422"/>
+</test>
+<status status="PASS" start="2026-02-20T15:54:15.525030" elapsed="20.049774"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Framespractice" id="s1" pass="1" fail="0" skip="0">Framespractice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,14 @@
+1771575421829	geckodriver	INFO	Listening on 127.0.0.1:63299
+1771575424963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63300" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KIIT01\\AppData\\Local\\Temp\\rust_mozprofileRXwkxr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771575425222	Marionette	INFO	Marionette enabled
+1771575425311	Marionette	INFO	Listening on port 60935
+WebDriver BiDi listening on ws://127.0.0.1:63300
+Read port: 60935
+1771575425433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
