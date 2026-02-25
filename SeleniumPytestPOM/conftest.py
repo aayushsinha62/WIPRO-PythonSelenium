@@ -6,15 +6,15 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-@pytest.fixture(scope="class")
-def setup(request):
+@pytest.fixture(scope="function")
+def driver(request):
     service=Service(ChromeDriverManager().install())
     #driver instance is created to use webdriver globally
     #       in the test script
     driver=webdriver.Chrome(service=service)
-    driver.maximize_window()
-    driver.implicitly_wait(10)
     driver.get("https:opensource-demo.orangehrmLive.com/")
+    driver.maximize_window()
+    driver.implicitly_wait(15)
     #driver set locally is passed to request at class level
     request.cls.driver=driver
     yield #think like it says ok pytest i am done setting up like opening browser now run testcases and after that come to me

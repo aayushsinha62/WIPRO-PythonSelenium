@@ -1,187 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.12.0 on win32)" generated="2026-02-22T17:09:34.262432" rpa="false" schemaversion="5">
-<suite id="s1" name="Personal Detail Test" source="C:\Users\KIIT01\PycharmProjects\Selenium\OrangeHRM\tests\personal_detail_test.robot">
+<robot generator="Robot 7.4.1 (Python 3.12.0 on win32)" generated="2026-02-23T10:34:03.209436" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\KIIT01\PycharmProjects\Selenium\OrangeHRM\tests\login_test.robot">
+<test id="s1-t1" name="TC_01 Verify Successful Employee Login" line="11">
 <kw name="Open Browser And Launch Application" owner="CommonKeywords" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:09:34.438184" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg time="2026-02-23T10:34:03.593690" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-22T17:09:34.438184" elapsed="4.967255"/>
+<status status="PASS" start="2026-02-23T10:34:03.592698" elapsed="7.467971"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-02-22T17:09:39.405439" elapsed="0.021031"/>
+<status status="PASS" start="2026-02-23T10:34:11.060669" elapsed="0.049840"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-22T17:09:49.426753" level="INFO">Slept 10 seconds.</msg>
+<msg time="2026-02-23T10:34:21.113412" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-22T17:09:39.426470" elapsed="10.000283"/>
+<status status="PASS" start="2026-02-23T10:34:11.111602" elapsed="10.001810"/>
 </kw>
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="username"]</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-22T17:09:49.426753" elapsed="0.003472"/>
+<status status="PASS" start="2026-02-23T10:34:21.114539" elapsed="0.029755"/>
 </kw>
-<status status="PASS" start="2026-02-22T17:09:34.438184" elapsed="14.992041"/>
+<status status="PASS" start="2026-02-23T10:34:03.592698" elapsed="17.551596"/>
 </kw>
-<test id="s1-t1" name="TC_03 Verify First Name Modification" line="11">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:09:49.430225" level="INFO">Typing text 'Admin' into text field 'xpath=//input[@name="username"]'.</msg>
+<msg time="2026-02-23T10:34:21.145321" level="INFO">Typing text 'Admin' into text field 'xpath=//input[@name="username"]'.</msg>
 <arg>xpath=//input[@name="username"]</arg>
 <arg>${VALID_USER}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-22T17:09:49.430225" elapsed="0.082847"/>
+<status status="PASS" start="2026-02-23T10:34:21.145321" elapsed="0.131777"/>
 </kw>
 <kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:09:49.513072" level="INFO">Typing password into text field 'xpath=//input[@name="password"]'.</msg>
-<msg time="2026-02-22T17:09:49.548118" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-02-23T10:34:21.278103" level="INFO">Typing password into text field 'xpath=//input[@name="password"]'.</msg>
+<msg time="2026-02-23T10:34:21.322755" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>xpath=//input[@name="password"]</arg>
 <arg>${VALID_PASS}</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-22T17:09:49.513072" elapsed="0.068326"/>
+<status status="PASS" start="2026-02-23T10:34:21.277098" elapsed="0.259373"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:09:49.581398" level="INFO">Clicking button 'xpath=//button[@type="submit"]'.</msg>
+<msg time="2026-02-23T10:34:21.541518" level="INFO">Clicking button 'xpath=//button[@type="submit"]'.</msg>
 <arg>xpath=//button[@type="submit"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-22T17:09:49.581398" elapsed="0.054558"/>
+<status status="PASS" start="2026-02-23T10:34:21.540515" elapsed="7.402888"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-23T10:34:48.944266" level="INFO">Slept 20 seconds.</msg>
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-23T10:34:28.943403" elapsed="20.000863"/>
 </kw>
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>xpath=//span[text()='Dashboard']</arg>
-<arg>20s</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-22T17:09:49.635956" elapsed="3.037324"/>
+<status status="PASS" start="2026-02-23T10:34:48.945306" elapsed="0.018063"/>
 </kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:09:52.673280" level="INFO">Clicking element 'xpath=//span[normalize-space()='My Info']'.</msg>
-<arg>xpath=//span[normalize-space()='My Info']</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-22T17:09:52.673280" elapsed="2.520580"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-22T17:10:05.195552" level="INFO">Slept 10 seconds.</msg>
-<arg>10s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-22T17:09:55.194975" elapsed="10.000577"/>
-</kw>
-<kw name="Execute Javascript" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:05.197157" level="INFO">Executing JavaScript:
-var input = document.getElementsByName('firstName')[0];input.value = '';input.dispatchEvent(new Event('input', { bubbles: true }));input.value = 'Aayush';input.dispatchEvent(new Event('input', { bubbles: true }));
-Without any arguments.</msg>
-<arg>var input = document.getElementsByName('firstName')[0];</arg>
-<arg>input.value = '';</arg>
-<arg>input.dispatchEvent(new Event('input', { bubbles: true }));</arg>
-<arg>input.value = 'Aayush';</arg>
-<arg>input.dispatchEvent(new Event('input', { bubbles: true }));</arg>
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<status status="PASS" start="2026-02-22T17:10:05.195552" elapsed="0.018418"/>
-</kw>
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>xpath=(//button[@type='submit'])[1]</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2026-02-22T17:10:05.213970" elapsed="0.308390"/>
-</kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:05.522360" level="INFO">Clicking button 'xpath=(//button[@type='submit'])[1]'.</msg>
-<arg>xpath=(//button[@type='submit'])[1]</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-22T17:10:05.522360" elapsed="0.134049"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-22T17:10:15.658335" level="INFO">Slept 10 seconds.</msg>
-<arg>10s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-22T17:10:05.657422" elapsed="10.000913"/>
-</kw>
-<status status="PASS" start="2026-02-22T17:09:49.430225" elapsed="26.228110"/>
-</test>
-<test id="s1-t2" name="TC_03 Verify First Name Change Verification" line="36">
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>xpath=//input[@name='firstName']</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2026-02-22T17:10:15.658335" elapsed="0.304764"/>
-</kw>
-<kw name="Element Attribute Value Should Be" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:15.994528" level="INFO">Element 'xpath=//input[@name='firstName']' attribute 'value' contains value 'Aayush'.</msg>
-<arg>xpath=//input[@name='firstName']</arg>
-<arg>value</arg>
-<arg>Aayush</arg>
-<doc>Verifies element identified by ``locator`` contains expected attribute value.</doc>
-<status status="PASS" start="2026-02-22T17:10:15.963099" elapsed="0.031429"/>
-</kw>
-<status status="PASS" start="2026-02-22T17:10:15.658335" elapsed="0.336193"/>
-</test>
-<test id="s1-t3" name="TC_03 Verify Disabled Fields" line="43">
-<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
-<kw name="Element Should Be Disabled" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:16.171823" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-49.png"&gt;&lt;img src="selenium-screenshot-49.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-22T17:10:16.171823" level="FAIL">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[2]' is enabled.</msg>
-<arg>xpath=(//input[@class='oxd-input oxd-input--active'])[2]</arg>
-<doc>Verifies that element identified by ``locator`` is disabled.</doc>
-<status status="FAIL" start="2026-02-22T17:10:15.994528" elapsed="0.179822">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[2]' is enabled.</status>
-</kw>
-<arg>Element Should Be Disabled</arg>
-<arg>xpath=(//input[@class='oxd-input oxd-input--active'])[2]</arg>
-<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="FAIL" start="2026-02-22T17:10:15.994528" elapsed="0.181838">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[2]' is enabled.</status>
-</kw>
-<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
-<kw name="Element Should Be Disabled" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:16.321778" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-50.png"&gt;&lt;img src="selenium-screenshot-50.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-22T17:10:16.321778" level="FAIL">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[1]' is enabled.</msg>
-<arg>xpath=(//input[@class='oxd-input oxd-input--active'])[1]</arg>
-<doc>Verifies that element identified by ``locator`` is disabled.</doc>
-<status status="FAIL" start="2026-02-22T17:10:16.176366" elapsed="0.145412">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[1]' is enabled.</status>
-</kw>
-<arg>Element Should Be Disabled</arg>
-<arg>xpath=(//input[@class='oxd-input oxd-input--active'])[1]</arg>
-<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="FAIL" start="2026-02-22T17:10:16.176366" elapsed="0.145412">Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[1]' is enabled.</status>
-</kw>
-<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
-<kw name="Element Should Be Disabled" owner="SeleniumLibrary">
-<msg time="2026-02-22T17:10:16.523568" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-51.png"&gt;&lt;img src="selenium-screenshot-51.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-22T17:10:16.523568" level="FAIL">Element 'xpath=(//input[@placeholder='yyyy-dd-mm'])[2]' is enabled.</msg>
-<arg>xpath=(//input[@placeholder='yyyy-dd-mm'])[2]</arg>
-<doc>Verifies that element identified by ``locator`` is disabled.</doc>
-<status status="FAIL" start="2026-02-22T17:10:16.337755" elapsed="0.185813">Element 'xpath=(//input[@placeholder='yyyy-dd-mm'])[2]' is enabled.</status>
-</kw>
-<arg>Element Should Be Disabled</arg>
-<arg>xpath=(//input[@placeholder='yyyy-dd-mm'])[2]</arg>
-<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="FAIL" start="2026-02-22T17:10:16.337755" elapsed="0.185813">Element 'xpath=(//input[@placeholder='yyyy-dd-mm'])[2]' is enabled.</status>
-</kw>
-<status status="FAIL" start="2026-02-22T17:10:15.994528" elapsed="0.529040">Several failures occurred:
-
-1) Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[2]' is enabled.
-
-2) Element 'xpath=(//input[@class='oxd-input oxd-input--active'])[1]' is enabled.
-
-3) Element 'xpath=(//input[@placeholder='yyyy-dd-mm'])[2]' is enabled.</status>
-</test>
 <kw name="Close Application" owner="CommonKeywords" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-02-22T17:10:16.523568" elapsed="2.169471"/>
+<status status="PASS" start="2026-02-23T10:34:48.966387" elapsed="2.236198"/>
 </kw>
-<status status="PASS" start="2026-02-22T17:10:16.523568" elapsed="2.169471"/>
+<status status="PASS" start="2026-02-23T10:34:48.965368" elapsed="2.237217"/>
 </kw>
-<status status="FAIL" start="2026-02-22T17:09:34.262432" elapsed="44.430607"/>
+<status status="PASS" start="2026-02-23T10:34:03.591681" elapsed="47.610904"/>
+</test>
+<test id="s1-t2" name="TC_02 Verify Error Message On Invalid Login" line="26">
+<kw name="Open Browser And Launch Application" owner="CommonKeywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-23T10:34:51.204584" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-23T10:34:51.204584" elapsed="6.197787"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-23T10:34:57.402371" elapsed="0.028300"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-23T10:35:07.432097" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-23T10:34:57.430671" elapsed="10.001426"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath=//input[@name="username"]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-23T10:35:07.433215" elapsed="0.030149"/>
+</kw>
+<status status="PASS" start="2026-02-23T10:34:51.204584" elapsed="16.258780"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-23T10:35:07.464361" level="INFO">Typing text 'Admin' into text field 'xpath=//input[@name="username"]'.</msg>
+<arg>xpath=//input[@name="username"]</arg>
+<arg>${VALID_USER}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-23T10:35:07.464361" elapsed="0.151687"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-02-23T10:35:07.617057" level="INFO">Typing password into text field 'xpath=//input[@name="password"]'.</msg>
+<msg time="2026-02-23T10:35:07.675151" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>xpath=//input[@name="password"]</arg>
+<arg>wrong</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-23T10:35:07.616048" elapsed="0.154406"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-23T10:35:07.771433" level="INFO">Clicking button 'xpath=//button[@type="submit"]'.</msg>
+<arg>xpath=//button[@type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-23T10:35:07.771433" elapsed="0.171296"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Invalid credentials</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-23T10:35:07.943735" elapsed="2.271060"/>
+</kw>
+<kw name="Close Application" owner="CommonKeywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-23T10:35:10.216301" elapsed="2.253151"/>
+</kw>
+<status status="PASS" start="2026-02-23T10:35:10.214795" elapsed="2.254657"/>
+</kw>
+<status status="PASS" start="2026-02-23T10:34:51.203588" elapsed="21.265864"/>
+</test>
+<status status="PASS" start="2026-02-23T10:34:03.210449" elapsed="69.259997"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="1" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Personal Detail Test" id="s1" pass="2" fail="1" skip="0">Personal Detail Test</stat>
+<stat name="Login Test" id="s1" pass="2" fail="0" skip="0">Login Test</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2026-02-22T17:09:34.438184" level="ERROR">Error in file 'C:\Users\KIIT01\PycharmProjects\Selenium\OrangeHRM\resources\CommonKeywords.robot' on line 3: Processing variable file 'Variables.robot' failed: Importing variable file 'Variables.robot' failed: ModuleNotFoundError: No module named 'Variables'
+<msg time="2026-02-23T10:34:03.589671" level="ERROR">Error in file 'C:\Users\KIIT01\PycharmProjects\Selenium\OrangeHRM\resources\CommonKeywords.robot' on line 3: Processing variable file 'Variables.robot' failed: Importing variable file 'Variables.robot' failed: ModuleNotFoundError: No module named 'Variables'
 Traceback (most recent call last):
   None
 PYTHONPATH:

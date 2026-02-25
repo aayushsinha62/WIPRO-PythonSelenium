@@ -3,12 +3,12 @@ Documentation     Automation Exercise - Logout User Test
 Library           SeleniumLibrary
 
 *** Variables ***
-${BROWSER}        Firefox
-${URL}            http://automationexercise.com
+${BROWSER}        Chrome
+${URL}            https://automationexercise.com
 
-${EMAIL}          sushantchoudhary586@gmail.com
-${PASSWORD}       Test@1234
-${USERNAME}       SUSHANT
+${EMAIL}          aayushsinha01@gmail.com
+${PASSWORD}       test@123
+${USERNAME}       Aayush
 
 *** Test Cases ***
 Logout User Successfully

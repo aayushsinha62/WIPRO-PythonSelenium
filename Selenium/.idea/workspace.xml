@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9420f05-23ea-4cdf-9d43-615bfb79ddc2" name="Changes" comment="" />
+    <list default="true" id="a9420f05-23ea-4cdf-9d43-615bfb79ddc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/fourth.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/fourth.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/second.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/second.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/reports/report.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }

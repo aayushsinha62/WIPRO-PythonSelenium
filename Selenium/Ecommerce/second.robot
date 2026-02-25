@@ -3,15 +3,15 @@ Documentation     Automation Exercise - Login User Test
 Library           SeleniumLibrary
 
 *** Variables ***
-${BROWSER}        Firefox
-${URL}            http://automationexercise.com
+${BROWSER}        Chrome
+${URL}            https://automationexercise.com
 
-${EMAIL}          sushantchoudhary586@gmail.com
-${PASSWORD}       Test@1234
+${EMAIL}          aayushsinha01@gmail.com
+${PASSWORD}       test@123
 
 *** Test Cases ***
 Login User With Correct Email And Password
-    [Documentation]    Test Case 2: Login User with correct email and password using Firefox
+    [Documentation]    Test Case 2: Login User with correct email and password using Chrome
 
     # 1. Launch browser & 2. Navigate to url
     Open Browser    ${URL}    ${BROWSER}
@@ -35,7 +35,7 @@ Login User With Correct Email And Password
     # 7. Click 'login' button
     Click Button     css=[data-qa="login-button"]
 
-     Verify successful login
+     #8. Verify successful login
     Wait Until Element Is Visible    xpath=//a[contains(., 'Logged in as')]    timeout=10s
 
     [Teardown]    Close Browser
