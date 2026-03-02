@@ -1,0 +1,16 @@
+2026-02-25 13:02:56,279 - INFO - xdist worker is: gw3
+2026-02-25 13:02:56,280 - INFO - ====== WebDriver manager ======
+2026-02-25 13:02:56,280 - INFO - ====== WebDriver manager ======
+2026-02-25 13:02:56,280 - INFO - ====== WebDriver manager ======
+2026-02-25 13:02:57,315 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 13:02:57,321 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 13:02:57,335 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 13:02:57,948 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 13:02:57,967 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 13:02:58,519 - INFO - Driver [C:\Users\KIIT01\.wdm\gw3\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 13:02:58,527 - INFO - Driver [C:\Users\KIIT01\.wdm\gw1\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 13:02:58,536 - INFO - Driver [C:\Users\KIIT01\.wdm\gw2\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 13:02:59,543 - INFO - Opening application
+2026-02-25 13:02:59,613 - INFO - Opening website
+2026-02-25 13:03:00,447 - INFO - Opening application
+2026-02-25 13:03:08,432 - INFO - Entering credentials

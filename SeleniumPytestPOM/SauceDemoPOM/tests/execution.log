@@ -1,0 +1,215 @@
+2026-02-25 13:42:46,247 - INFO - Opened SauceDemo
+2026-02-25 13:42:46,511 - INFO - Logged in successfully
+2026-02-25 13:42:46,606 - INFO - Product added to cart
+2026-02-25 13:42:47,044 - INFO - Order completed successfully
+2026-02-25 14:00:36,450 - INFO - Opened SauceDemo
+2026-02-25 14:00:36,648 - INFO - Logged in successfully
+2026-02-25 14:00:46,942 - ERROR - Test failed
+2026-02-25 14:05:58,771 - INFO - Opened SauceDemo
+2026-02-25 14:05:58,980 - ERROR - Test failed
+2026-02-25 14:05:59,304 - INFO - Opened SauceDemo
+2026-02-25 14:05:59,437 - ERROR - Test failed
+2026-02-25 14:07:02,836 - INFO - Opened SauceDemo
+2026-02-25 14:07:03,068 - ERROR - Test failed
+2026-02-25 14:07:03,345 - INFO - Opened SauceDemo
+2026-02-25 14:07:03,521 - ERROR - Test failed
+2026-02-25 14:10:48,891 - INFO - Opened SauceDemo
+2026-02-25 14:10:49,084 - INFO - Logged in successfully
+2026-02-25 14:10:49,159 - INFO - Product added to cart
+2026-02-25 14:10:49,518 - INFO - Order completed successfully
+2026-02-25 14:10:49,561 - INFO - Opened SauceDemo
+2026-02-25 14:10:49,706 - INFO - Logged in successfully
+2026-02-25 14:10:49,763 - INFO - Product added to cart
+2026-02-25 14:10:50,026 - ERROR - Test failed
+2026-02-25 14:10:50,267 - INFO - Opened SauceDemo
+2026-02-25 14:10:55,427 - INFO - Logged in successfully
+2026-02-25 14:11:05,666 - ERROR - Test failed
+2026-02-25 14:11:05,853 - INFO - Opened SauceDemo
+2026-02-25 14:11:06,016 - INFO - Invalid credentials scenario executed
+2026-02-25 14:11:58,760 - INFO - Opened SauceDemo
+2026-02-25 14:11:58,943 - INFO - Opened SauceDemo
+2026-02-25 14:11:59,641 - INFO - Opened SauceDemo
+2026-02-25 14:11:59,821 - INFO - Opened SauceDemo
+2026-02-25 14:12:00,106 - INFO - Logged in successfully
+2026-02-25 14:12:00,277 - INFO - Logged in successfully
+2026-02-25 14:12:00,289 - INFO - Product added to cart
+2026-02-25 14:12:00,436 - INFO - Invalid credentials scenario executed
+2026-02-25 14:12:00,440 - INFO - Product added to cart
+2026-02-25 14:12:01,040 - ERROR - Test failed
+2026-02-25 14:12:01,201 - INFO - Order completed successfully
+2026-02-25 14:12:05,080 - INFO - Logged in successfully
+2026-02-25 14:12:05,163 - INFO - Product added to cart
+2026-02-25 14:12:05,547 - INFO - Order completed successfully
+2026-02-25 14:12:28,143 - INFO - Opened SauceDemo
+2026-02-25 14:12:28,233 - INFO - Opened SauceDemo
+2026-02-25 14:12:28,404 - INFO - Opened SauceDemo
+2026-02-25 14:12:28,861 - INFO - Opened SauceDemo
+2026-02-25 14:12:29,221 - INFO - Logged in successfully
+2026-02-25 14:12:29,457 - INFO - Product added to cart
+2026-02-25 14:12:29,493 - INFO - Invalid credentials scenario executed
+2026-02-25 14:12:29,653 - INFO - Logged in successfully
+2026-02-25 14:12:29,827 - INFO - Product added to cart
+2026-02-25 14:12:30,249 - INFO - Order completed successfully
+2026-02-25 14:12:30,506 - ERROR - Test failed
+2026-02-25 14:12:34,598 - INFO - Logged in successfully
+2026-02-25 14:12:34,683 - INFO - Product added to cart
+2026-02-25 14:12:35,049 - INFO - Order completed successfully
+2026-02-25 14:13:55,080 - INFO - Opened SauceDemo
+2026-02-25 14:13:55,214 - INFO - Opened SauceDemo
+2026-02-25 14:13:55,680 - INFO - Opened SauceDemo
+2026-02-25 14:13:56,065 - INFO - Logged in successfully
+2026-02-25 14:13:56,201 - INFO - Logged in successfully
+2026-02-25 14:13:56,248 - INFO - Product added to cart
+2026-02-25 14:13:56,355 - INFO - Product added to cart
+2026-02-25 14:13:56,791 - INFO - Order completed successfully
+2026-02-25 14:13:56,892 - ERROR - Test failed
+2026-02-25 14:14:00,584 - INFO - Logged in successfully
+2026-02-25 14:14:00,686 - INFO - Product added to cart
+2026-02-25 14:14:01,034 - INFO - Order completed successfully
+2026-02-25 14:14:12,919 - INFO - Opened SauceDemo
+2026-02-25 14:14:12,954 - INFO - Opened SauceDemo
+2026-02-25 14:14:13,033 - INFO - Opened SauceDemo
+2026-02-25 14:14:13,438 - INFO - Logged in successfully
+2026-02-25 14:14:13,483 - INFO - Logged in successfully
+2026-02-25 14:14:13,614 - INFO - Product added to cart
+2026-02-25 14:14:13,636 - INFO - Product added to cart
+2026-02-25 14:14:14,122 - ERROR - Test failed
+2026-02-25 14:14:14,166 - INFO - Order completed successfully
+2026-02-25 14:14:18,419 - INFO - Logged in successfully
+2026-02-25 14:14:18,489 - INFO - Product added to cart
+2026-02-25 14:14:18,868 - INFO - Order completed successfully
+2026-02-25 14:15:17,167 - INFO - Opened SauceDemo
+2026-02-25 14:15:17,396 - INFO - Opened SauceDemo
+2026-02-25 14:15:17,499 - INFO - Opened SauceDemo
+2026-02-25 14:15:17,870 - ERROR - Test failed
+2026-02-25 14:15:18,358 - INFO - Invalid credentials scenario executed
+2026-02-25 14:15:18,387 - INFO - Logged in successfully
+2026-02-25 14:15:18,548 - INFO - Product added to cart
+2026-02-25 14:15:18,996 - INFO - Order completed successfully
+2026-02-25 14:15:34,397 - INFO - Opened SauceDemo
+2026-02-25 14:15:34,576 - INFO - Logged in successfully
+2026-02-25 14:15:34,628 - INFO - Product added to cart
+2026-02-25 14:15:35,011 - INFO - Order completed successfully
+2026-02-25 14:15:35,051 - INFO - Opened SauceDemo
+2026-02-25 14:15:35,189 - INFO - Invalid credentials scenario executed
+2026-02-25 14:15:35,248 - INFO - Opened SauceDemo
+2026-02-25 14:15:35,268 - ERROR - Test failed
+2026-02-25 14:16:43,268 - INFO - Opened SauceDemo
+2026-02-25 14:16:43,299 - INFO - Opened SauceDemo
+2026-02-25 14:16:44,833 - INFO - Logged in successfully
+2026-02-25 14:16:44,900 - INFO - Invalid credentials scenario executed
+2026-02-25 14:16:45,001 - INFO - Product added to cart
+2026-02-25 14:16:45,733 - INFO - Order completed successfully
+2026-02-25 14:16:45,765 - INFO - Opened SauceDemo
+2026-02-25 14:16:45,865 - ERROR - Test failed
+2026-02-25 14:17:02,824 - INFO - Opened SauceDemo
+2026-02-25 14:17:03,099 - INFO - Logged in successfully
+2026-02-25 14:17:03,179 - INFO - Product added to cart
+2026-02-25 14:17:03,545 - INFO - Order completed successfully
+2026-02-25 14:17:03,607 - INFO - Opened SauceDemo
+2026-02-25 14:17:03,751 - INFO - Invalid credentials scenario executed
+2026-02-25 14:17:03,796 - INFO - Opened SauceDemo
+2026-02-25 14:17:03,811 - ERROR - Test failed
+2026-02-25 14:19:29,331 - INFO - Opened SauceDemo
+2026-02-25 14:19:29,551 - INFO - Logged in successfully
+2026-02-25 14:19:29,640 - INFO - Product added to cart
+2026-02-25 14:19:30,024 - INFO - Order completed successfully
+2026-02-25 14:19:30,083 - INFO - Opened SauceDemo
+2026-02-25 14:19:30,235 - INFO - Invalid credentials scenario executed
+2026-02-25 14:19:54,776 - INFO - Opened SauceDemo
+2026-02-25 14:19:54,971 - INFO - Logged in successfully
+2026-02-25 14:19:55,058 - INFO - Product added to cart
+2026-02-25 14:19:55,389 - INFO - Order completed successfully
+2026-02-25 14:19:55,441 - INFO - Opened SauceDemo
+2026-02-25 14:19:55,579 - INFO - Invalid credentials scenario executed
+2026-02-25 14:21:29,066 - INFO - Opened SauceDemo
+2026-02-25 14:21:29,320 - INFO - Logged in successfully
+2026-02-25 14:21:29,402 - INFO - Product added to cart
+2026-02-25 14:21:29,747 - INFO - Order completed successfully
+2026-02-25 14:21:29,787 - INFO - Opened SauceDemo
+2026-02-25 14:21:29,954 - INFO - Logged in successfully
+2026-02-25 14:21:30,005 - INFO - Product added to cart
+2026-02-25 14:21:30,324 - INFO - Order completed successfully
+2026-02-25 14:21:30,360 - INFO - Opened SauceDemo
+2026-02-25 14:21:30,507 - INFO - Logged in successfully
+2026-02-25 14:21:30,559 - INFO - Product added to cart
+2026-02-25 14:21:30,793 - ERROR - Test failed
+2026-02-25 14:21:31,027 - INFO - Opened SauceDemo
+2026-02-25 14:21:36,170 - INFO - Logged in successfully
+2026-02-25 14:21:46,430 - ERROR - Test failed
+2026-02-25 14:21:46,594 - INFO - Opened SauceDemo
+2026-02-25 14:21:46,724 - INFO - Invalid credentials scenario executed
+2026-02-25 14:23:22,403 - INFO - Opened SauceDemo
+2026-02-25 14:23:22,711 - INFO - Logged in successfully
+2026-02-25 14:23:22,798 - INFO - Product added to cart
+2026-02-25 14:23:23,252 - INFO - Order completed successfully
+2026-02-25 14:23:23,309 - INFO - Opened SauceDemo
+2026-02-25 14:23:23,479 - INFO - Logged in successfully
+2026-02-25 14:23:23,531 - INFO - Product added to cart
+2026-02-25 14:23:23,818 - INFO - Order completed successfully
+2026-02-25 14:23:23,845 - INFO - Opened SauceDemo
+2026-02-25 14:23:23,976 - INFO - Logged in successfully
+2026-02-25 14:23:24,016 - INFO - Product added to cart
+2026-02-25 14:23:24,305 - ERROR - Test failed
+2026-02-25 14:23:24,545 - INFO - Opened SauceDemo
+2026-02-25 14:23:29,792 - INFO - Logged in successfully
+2026-02-25 14:23:42,669 - INFO - Opened SauceDemo
+2026-02-25 14:23:43,025 - INFO - Logged in successfully
+2026-02-25 14:23:43,105 - INFO - Product added to cart
+2026-02-25 14:23:43,453 - INFO - Order completed successfully
+2026-02-25 14:23:43,504 - INFO - Opened SauceDemo
+2026-02-25 14:23:43,645 - INFO - Logged in successfully
+2026-02-25 14:23:43,694 - INFO - Product added to cart
+2026-02-25 14:23:43,968 - INFO - Order completed successfully
+2026-02-25 14:23:43,996 - INFO - Opened SauceDemo
+2026-02-25 14:23:44,138 - INFO - Logged in successfully
+2026-02-25 14:23:44,187 - INFO - Product added to cart
+2026-02-25 14:23:44,465 - ERROR - Test failed
+2026-02-25 14:23:44,691 - INFO - Opened SauceDemo
+2026-02-25 14:23:44,826 - INFO - Logged in successfully
+2026-02-25 14:23:55,101 - ERROR - Test failed
+2026-02-25 14:23:55,269 - INFO - Opened SauceDemo
+2026-02-25 14:23:55,399 - INFO - Invalid credentials scenario executed
+2026-02-25 14:25:27,936 - INFO - Opened SauceDemo
+2026-02-25 14:25:28,242 - INFO - Logged in successfully
+2026-02-25 14:25:28,317 - INFO - Product added to cart
+2026-02-25 14:25:28,667 - INFO - Order completed successfully
+2026-02-25 14:25:28,720 - INFO - Opened SauceDemo
+2026-02-25 14:25:28,863 - INFO - Invalid credentials scenario executed
+2026-02-25 14:25:28,876 - ERROR - Test failed
+2026-02-25 14:25:29,152 - INFO - Opened SauceDemo
+2026-02-25 14:25:29,279 - INFO - Invalid credentials scenario executed
+2026-02-25 14:25:29,286 - ERROR - Test failed
+2026-02-25 14:25:29,502 - INFO - Opened SauceDemo
+2026-02-25 14:25:29,628 - INFO - Invalid credentials scenario executed
+2026-02-25 14:26:21,149 - INFO - Opened SauceDemo
+2026-02-25 14:26:21,223 - INFO - Opened SauceDemo
+2026-02-25 14:26:21,521 - INFO - Invalid credentials scenario executed
+2026-02-25 14:26:21,607 - INFO - Logged in successfully
+2026-02-25 14:26:21,710 - INFO - Product added to cart
+2026-02-25 14:26:22,275 - INFO - Order completed successfully
+2026-02-25 14:43:22,992 - INFO - Opened SauceDemo
+2026-02-25 14:43:23,176 - INFO - Login successful
+2026-02-25 14:43:23,251 - INFO - Product added to cart
+2026-02-25 14:43:23,623 - INFO - Order completed successfully
+2026-02-25 14:43:23,669 - INFO - Opened SauceDemo
+2026-02-25 14:43:23,815 - INFO - Invalid credentials scenario
+2026-02-25 17:05:30,859 - INFO - Opened SauceDemo
+2026-02-25 17:05:31,181 - INFO - Login successful
+2026-02-25 17:05:31,272 - INFO - Product added to cart
+2026-02-25 17:05:31,706 - INFO - Order completed successfully
+2026-02-25 17:05:31,764 - INFO - Opened SauceDemo
+2026-02-25 17:05:31,911 - INFO - Invalid credentials scenario
+2026-02-25 18:29:17,777 - INFO - Opened SauceDemo
+2026-02-25 18:29:18,093 - INFO - Login successful
+2026-02-25 18:29:18,185 - INFO - Product added to cart
+2026-02-25 18:29:18,628 - INFO - Order completed successfully
+2026-02-25 18:29:18,687 - INFO - Opened SauceDemo
+2026-02-25 18:29:18,878 - INFO - Invalid credentials scenario
+2026-02-25 18:29:18,890 - ERROR - Test failed
+2026-02-25 18:29:32,853 - INFO - Opened SauceDemo
+2026-02-25 18:29:32,861 - INFO - Opened SauceDemo
+2026-02-25 18:29:33,881 - INFO - Login successful
+2026-02-25 18:29:33,967 - INFO - Invalid credentials scenario
+2026-02-25 18:29:33,999 - INFO - Product added to cart
+2026-02-25 18:29:34,501 - ERROR - Test failed

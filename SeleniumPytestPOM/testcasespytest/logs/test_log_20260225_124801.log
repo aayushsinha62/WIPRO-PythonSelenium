@@ -1,0 +1,47 @@
+2026-02-25 12:48:01,604 - INFO - xdist worker is: gw2
+2026-02-25 12:48:01,604 - INFO - xdist worker is: gw1
+2026-02-25 12:48:01,604 - INFO - ====== WebDriver manager ======
+2026-02-25 12:48:01,604 - INFO - ====== WebDriver manager ======
+2026-02-25 12:48:01,605 - INFO - xdist worker is: gw0
+2026-02-25 12:48:01,605 - INFO - ====== WebDriver manager ======
+2026-02-25 12:48:02,723 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:02,737 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:02,758 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:03,434 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:03,480 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:03,503 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:03,977 - INFO - There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-02-25 12:48:03,977 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:04,075 - INFO - There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-02-25 12:48:04,075 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:04,099 - INFO - There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-02-25 12:48:04,099 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:05,178 - INFO - WebDriver version 145.0.7632.117 selected
+2026-02-25 12:48:05,185 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:05,185 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:05,448 - INFO - WebDriver version 145.0.7632.117 selected
+2026-02-25 12:48:05,455 - INFO - WebDriver version 145.0.7632.117 selected
+eapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:05,456 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:05,463 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:05,463 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-02-25 12:48:06,657 - INFO - Driver downloading response is 200
+2026-02-25 12:48:06,680 - INFO - Driver downloading response is 200
+2026-02-25 12:48:06,688 - INFO - Driver downloading response is 200
+2026-02-25 12:48:07,408 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:07,618 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:07,957 - INFO - Driver has been saved in cache [C:\Users\KIIT01\.wdm\gw2\drivers\chromedriver\win64\145.0.7632.117]
+2026-02-25 12:48:08,220 - INFO - Driver has been saved in cache [C:\Users\KIIT01\.wdm\gw1\drivers\chromedriver\win64\145.0.7632.117]
+2026-02-25 12:48:08,528 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:09,451 - INFO - Driver has been saved in cache [C:\Users\KIIT01\.wdm\gw0\drivers\chromedriver\win64\145.0.7632.117]
+2026-02-25 12:48:11,453 - INFO - Opening website
+2026-02-25 12:48:11,595 - INFO - Opening application
+2026-02-25 12:48:12,820 - INFO - Opening website
+2026-02-25 12:48:21,230 - INFO - Entering credentials
+2026-02-25 12:48:21,292 - INFO - Entering credentials
+2026-02-25 12:48:26,669 - INFO - xdist worker is: gw0
+2026-02-25 12:48:26,670 - INFO - ====== WebDriver manager ======
+2026-02-25 12:48:27,586 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:28,016 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 12:48:28,493 - INFO - Driver [C:\Users\KIIT01\.wdm\gw0\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 12:48:29,195 - INFO - Opening application

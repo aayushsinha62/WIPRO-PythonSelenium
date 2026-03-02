@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.0 on win32)" generated="2026-02-26T16:16:11.680754" rpa="false" schemaversion="5">
+<suite id="s1" name="Manager Flow" source="C:\Users\KIIT01\PycharmProjects\Selenium\XYZRobot\tests\manager_flow.robot">
+<kw name="Open XYZ Bank Browser" owner="browser" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-26T16:16:11.924932" level="INFO">Opening browser 'chrome' to base url 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'.</msg>
+<msg time="2026-02-26T16:16:23.659220" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-26T16:16:11.924932" elapsed="22.642131"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-26T16:16:34.567063" elapsed="0.032575"/>
+</kw>
+<status status="PASS" start="2026-02-26T16:16:11.923908" elapsed="22.675730"/>
+</kw>
+<test id="s1-t1" name="Manager Add Customer And Open Account" line="7">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-26T16:16:34.601640" level="INFO">Clicking button 'Bank Manager Login'.</msg>
+<msg time="2026-02-26T16:16:34.730598" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-26T16:16:34.731609" level="FAIL">Button with locator 'Bank Manager Login' not found.</msg>
+<arg>Bank Manager Login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-02-26T16:16:34.601640" elapsed="0.138895">Button with locator 'Bank Manager Login' not found.</status>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Add Customer</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.740535" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Add Customer</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.741534" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@placeholder='First Name']</arg>
+<arg>Aayush</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.741534" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@placeholder='Last Name']</arg>
+<arg>Sinha</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.741534" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@placeholder='Post Code']</arg>
+<arg>110011</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.741534" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>xpath=//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.742536" elapsed="0.000000"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.742536" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Open Account</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.742536" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<arg>id=userSelect</arg>
+<arg>Aayush Sinha</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.742536" elapsed="0.001002"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<arg>id=currency</arg>
+<arg>Dollar</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.743538" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Process</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.743538" elapsed="0.000000"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="NOT RUN" start="2026-02-26T16:16:34.743538" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-02-26T16:16:34.599638" elapsed="0.144898">Button with locator 'Bank Manager Login' not found.</status>
+</test>
+<kw name="Close XYZ Bank Browser" owner="browser" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-26T16:16:34.744536" elapsed="2.155777"/>
+</kw>
+<status status="PASS" start="2026-02-26T16:16:34.744536" elapsed="2.155777"/>
+</kw>
+<status status="FAIL" start="2026-02-26T16:16:11.682759" elapsed="25.217554"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Manager Flow" id="s1" pass="0" fail="1" skip="0">Manager Flow</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-26T16:16:23.659220" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+</errors>
+</robot>

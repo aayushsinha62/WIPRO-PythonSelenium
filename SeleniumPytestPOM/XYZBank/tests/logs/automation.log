@@ -1,0 +1,256 @@
+2026-02-26 11:01:32,033 - INFO - Launching browser
+2026-02-26 11:01:47,604 - INFO - Manager login clicked
+2026-02-26 11:01:57,882 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:01:57,972 - INFO - Closing browser
+2026-02-26 11:04:02,793 - INFO - Launching browser
+2026-02-26 11:04:06,426 - INFO - Starting test for Hermoine Granger
+2026-02-26 11:04:07,620 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 11:04:07,706 - INFO - Closing browser
+2026-02-26 11:28:44,322 - INFO - Launching browser
+2026-02-26 11:28:47,945 - INFO - Starting test for Hermoine Granger
+2026-02-26 11:28:49,131 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 11:28:49,216 - INFO - Closing browser
+2026-02-26 11:29:01,620 - INFO - Launching browser
+2026-02-26 11:29:07,290 - INFO - Manager login clicked
+2026-02-26 11:29:08,668 - INFO - Customer added successfully with customer id :6
+2026-02-26 11:29:08,856 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:29:08,976 - INFO - Closing browser
+2026-02-26 11:44:25,710 - INFO - Launching browser
+2026-02-26 11:44:41,660 - INFO - Manager login clicked
+2026-02-26 11:44:43,118 - INFO - Customer added successfully with customer id :6
+2026-02-26 11:44:43,323 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:44:43,427 - INFO - Closing browser
+2026-02-26 11:45:19,722 - INFO - Launching browser
+2026-02-26 11:45:35,455 - INFO - Manager login clicked
+2026-02-26 11:45:36,816 - INFO - Customer added successfully with customer id :6
+2026-02-26 11:45:36,970 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:45:37,080 - INFO - Closing browser
+2026-02-26 11:54:18,068 - INFO - Launching browser
+2026-02-26 11:54:22,866 - INFO - Manager login clicked
+2026-02-26 11:54:24,251 - INFO - Customer added successfully with customer id :6
+2026-02-26 11:54:24,405 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:54:24,515 - INFO - Closing browser
+2026-02-26 11:55:22,928 - INFO - Launching browser
+2026-02-26 11:55:27,506 - INFO - Manager login clicked
+2026-02-26 11:55:28,852 - INFO - Customer added successfully with customer id :6
+2026-02-26 11:55:29,004 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 11:55:29,117 - INFO - Closing browser
+2026-02-26 12:04:33,619 - INFO - Launching browser
+2026-02-26 12:04:49,546 - INFO - Manager login clicked
+2026-02-26 12:04:50,972 - INFO - Customer added successfully with customer id :6
+2026-02-26 12:04:51,177 - ERROR - Test failed: test_manager_add_customer_and_open_account
+2026-02-26 12:04:51,296 - INFO - Closing browser
+2026-02-26 12:09:20,338 - INFO - Launching browser
+2026-02-26 12:09:36,584 - INFO - Manager login clicked
+2026-02-26 12:09:37,937 - INFO - Customer added successfully with customer id :6
+2026-02-26 12:09:38,722 - INFO - Account created successfully with account Number :1016
+2026-02-26 12:09:38,725 - INFO - Closing browser
+2026-02-26 12:09:59,850 - INFO - Launching browser
+2026-02-26 12:10:09,506 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:10:10,701 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:10:10,781 - INFO - Closing browser
+2026-02-26 12:12:37,483 - INFO - Launching browser
+2026-02-26 12:12:47,989 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:12:50,255 - INFO - Customer logged in successfully
+2026-02-26 12:12:50,965 - INFO - Deposited 1000
+2026-02-26 12:12:51,645 - INFO - Withdrawn 200
+2026-02-26 12:12:51,742 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:12:51,901 - INFO - Closing browser
+2026-02-26 12:16:24,948 - INFO - Launching browser
+2026-02-26 12:16:34,611 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:16:36,873 - INFO - Customer logged in successfully
+2026-02-26 12:16:37,589 - INFO - Deposited 1000
+2026-02-26 12:16:38,285 - INFO - Withdrawn 200
+2026-02-26 12:16:38,388 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:16:38,529 - INFO - Closing browser
+2026-02-26 12:17:25,306 - INFO - Launching browser
+2026-02-26 12:17:29,111 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:17:31,890 - INFO - Customer logged in successfully
+2026-02-26 12:17:32,734 - INFO - Deposited 1000
+2026-02-26 12:17:33,442 - INFO - Withdrawn 200
+2026-02-26 12:17:33,552 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:17:33,727 - INFO - Closing browser
+2026-02-26 12:21:07,240 - INFO - Launching browser
+2026-02-26 12:21:21,852 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:21:24,124 - INFO - Customer logged in successfully
+2026-02-26 12:21:24,852 - INFO - Deposit Successful
+2026-02-26 12:21:35,132 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:21:35,224 - INFO - Closing browser
+2026-02-26 12:23:13,309 - INFO - Launching browser
+2026-02-26 12:23:22,936 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:23:25,198 - INFO - Customer logged in successfully
+2026-02-26 12:23:25,934 - INFO - Deposit Successful
+2026-02-26 12:23:36,905 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:23:37,034 - INFO - Closing browser
+2026-02-26 12:23:46,061 - INFO - Launching browser
+2026-02-26 12:23:49,991 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:23:52,257 - INFO - Customer logged in successfully
+2026-02-26 12:23:53,189 - INFO - Deposit Successful
+2026-02-26 12:24:04,210 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:24:04,386 - INFO - Closing browser
+2026-02-26 12:25:21,084 - INFO - Launching browser
+2026-02-26 12:25:35,854 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:25:38,195 - INFO - Customer logged in successfully
+2026-02-26 12:25:38,934 - INFO - Deposit Successful
+2026-02-26 12:25:49,925 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:25:50,096 - INFO - Closing browser
+2026-02-26 12:28:04,844 - INFO - Launching browser
+2026-02-26 12:28:19,644 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:28:21,934 - INFO - Customer logged in successfully
+2026-02-26 12:28:22,662 - INFO - Deposit Successful
+2026-02-26 12:28:33,631 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:28:33,783 - INFO - Closing browser
+2026-02-26 12:28:39,676 - INFO - Launching browser
+2026-02-26 12:28:54,531 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:28:56,831 - INFO - Customer logged in successfully
+2026-02-26 12:28:57,622 - INFO - Deposit Successful
+2026-02-26 12:29:07,921 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:29:08,009 - INFO - Closing browser
+2026-02-26 12:29:22,303 - INFO - Launching browser
+2026-02-26 12:29:25,960 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:29:28,240 - INFO - Customer logged in successfully
+2026-02-26 12:29:28,971 - INFO - Deposit Successful
+2026-02-26 12:29:39,993 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:29:40,176 - INFO - Closing browser
+2026-02-26 12:31:00,076 - INFO - Launching browser
+2026-02-26 12:31:03,463 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:31:06,030 - INFO - Customer logged in successfully
+2026-02-26 12:31:16,396 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:31:16,471 - INFO - Closing browser
+2026-02-26 12:31:41,073 - INFO - Launching browser
+2026-02-26 12:31:44,600 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:31:46,877 - INFO - Customer logged in successfully
+2026-02-26 12:31:47,619 - INFO - Deposit Successful
+2026-02-26 12:31:58,657 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:31:58,795 - INFO - Closing browser
+2026-02-26 12:33:04,107 - INFO - Launching browser
+2026-02-26 12:33:07,607 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:33:09,870 - INFO - Customer logged in successfully
+2026-02-26 12:33:20,380 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:34:03,852 - INFO - Launching browser
+2026-02-26 12:34:18,769 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:34:21,077 - INFO - Customer logged in successfully
+2026-02-26 12:34:21,861 - INFO - Deposit Successful
+2026-02-26 12:34:22,601 - INFO - Transaction successful
+2026-02-26 12:34:22,695 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:34:22,789 - INFO - Closing browser
+2026-02-26 12:34:31,751 - INFO - Launching browser
+2026-02-26 12:34:40,545 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:34:42,807 - INFO - Customer logged in successfully
+2026-02-26 12:34:43,539 - INFO - Deposit Successful
+2026-02-26 12:34:44,288 - INFO - Transaction successful
+2026-02-26 12:34:44,383 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:34:44,506 - INFO - Closing browser
+2026-02-26 12:35:20,815 - INFO - Launching browser
+2026-02-26 12:35:35,626 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:35:37,873 - INFO - Customer logged in successfully
+2026-02-26 12:35:38,684 - INFO - Deposit Successful
+2026-02-26 12:35:39,409 - INFO - Transaction successful
+2026-02-26 12:35:39,498 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:35:39,625 - INFO - Closing browser
+2026-02-26 12:36:48,638 - INFO - Launching browser
+2026-02-26 12:36:52,328 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:36:54,609 - INFO - Customer logged in successfully
+2026-02-26 12:36:55,338 - INFO - Deposit Successful
+2026-02-26 12:36:56,033 - INFO - Transaction successful
+2026-02-26 12:36:56,048 - INFO - Balance validated successfully
+2026-02-26 12:36:56,100 - INFO - Starting test for Harry Potter
+2026-02-26 12:37:06,413 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:37:06,520 - INFO - Closing browser
+2026-02-26 12:37:11,919 - INFO - Launching browser
+2026-02-26 12:37:15,454 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:37:17,710 - INFO - Customer logged in successfully
+2026-02-26 12:37:18,452 - INFO - Deposit Successful
+2026-02-26 12:37:19,168 - INFO - Transaction successful
+2026-02-26 12:37:19,184 - INFO - Balance validated successfully
+2026-02-26 12:37:19,238 - INFO - Starting test for Harry Potter
+2026-02-26 12:37:29,492 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:37:29,583 - INFO - Closing browser
+2026-02-26 12:38:55,272 - INFO - Launching browser
+2026-02-26 12:38:58,886 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:39:01,155 - INFO - Customer logged in successfully
+2026-02-26 12:39:01,915 - INFO - Deposit Successful
+2026-02-26 12:39:02,624 - INFO - Transaction successful
+2026-02-26 12:39:02,643 - INFO - Balance validated successfully
+2026-02-26 12:39:02,706 - INFO - Starting test for Harry Potter
+2026-02-26 12:39:13,005 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:39:13,103 - INFO - Closing browser
+2026-02-26 12:42:49,237 - INFO - Launching browser
+2026-02-26 12:42:58,945 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:43:01,221 - INFO - Customer logged in successfully
+2026-02-26 12:43:01,952 - INFO - Deposit Successful
+2026-02-26 12:43:02,650 - INFO - Transaction successful
+2026-02-26 12:43:02,665 - INFO - Balance validated successfully
+2026-02-26 12:43:02,717 - INFO - Starting test for Harry Potter
+2026-02-26 12:43:13,004 - ERROR - Test failed: test_customer_transaction_flow
+2026-02-26 12:43:13,086 - INFO - Closing browser
+2026-02-26 12:46:51,324 - INFO - Launching browser
+2026-02-26 12:47:00,969 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:47:03,228 - INFO - Customer logged in successfully
+2026-02-26 12:47:03,958 - INFO - Deposit Successful
+2026-02-26 12:47:04,708 - INFO - Transaction successful
+2026-02-26 12:47:04,729 - INFO - Balance validated successfully
+2026-02-26 12:47:04,850 - INFO - Starting test for Harry Potter
+2026-02-26 12:47:05,028 - INFO - Customer logged in successfully
+2026-02-26 12:47:05,210 - INFO - Deposit Successful
+2026-02-26 12:47:05,410 - INFO - Transaction successful
+2026-02-26 12:47:05,424 - INFO - Balance validated successfully
+2026-02-26 12:47:05,528 - INFO - Closing browser
+2026-02-26 12:50:12,001 - INFO - Launching browser
+2026-02-26 12:50:16,870 - INFO - Manager login clicked
+2026-02-26 12:50:18,251 - INFO - Customer added successfully with customer id :6
+2026-02-26 12:50:19,182 - INFO - Account created successfully with account Number :1016
+2026-02-26 12:50:19,187 - INFO - Closing browser
+2026-02-26 12:50:29,565 - INFO - Launching browser
+2026-02-26 12:50:32,305 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:50:34,569 - INFO - Customer logged in successfully
+2026-02-26 12:50:35,310 - INFO - Deposit Successful
+2026-02-26 12:50:36,003 - INFO - Transaction successful
+2026-02-26 12:50:36,016 - INFO - Balance validated successfully
+2026-02-26 12:50:36,126 - INFO - Starting test for Harry Potter
+2026-02-26 12:50:36,293 - INFO - Customer logged in successfully
+2026-02-26 12:50:36,468 - INFO - Deposit Successful
+2026-02-26 12:50:36,668 - INFO - Transaction successful
+2026-02-26 12:50:36,687 - INFO - Balance validated successfully
+2026-02-26 12:50:36,847 - INFO - Closing browser
+2026-02-26 12:56:29,408 - INFO - Launching browser
+2026-02-26 12:56:33,381 - INFO - Starting test for Hermoine Granger
+2026-02-26 12:56:35,654 - INFO - Customer logged in successfully
+2026-02-26 12:56:36,394 - INFO - Deposit Successful
+2026-02-26 12:56:37,120 - INFO - Transaction successful
+2026-02-26 12:56:37,140 - INFO - Balance validated successfully
+2026-02-26 12:56:37,280 - INFO - Starting test for Harry Potter
+2026-02-26 12:56:37,460 - INFO - Customer logged in successfully
+2026-02-26 12:56:37,662 - INFO - Deposit Successful
+2026-02-26 12:56:37,827 - INFO - Transaction successful
+2026-02-26 12:56:37,840 - INFO - Balance validated successfully
+2026-02-26 12:56:37,946 - INFO - Closing browser
+2026-02-26 13:26:36,384 - INFO - Launching browser
+2026-02-26 13:26:51,246 - INFO - Starting test for Hermoine Granger
+2026-02-26 13:26:53,516 - INFO - Customer logged in successfully
+2026-02-26 13:26:54,250 - INFO - Deposit Successful
+2026-02-26 13:26:54,976 - INFO - Transaction successful
+2026-02-26 13:26:54,990 - INFO - Balance validated successfully
+2026-02-26 13:26:55,098 - INFO - Starting test for Harry Potter
+2026-02-26 13:26:55,265 - INFO - Customer logged in successfully
+2026-02-26 13:26:55,436 - INFO - Deposit Successful
+2026-02-26 13:26:55,601 - INFO - Transaction successful
+2026-02-26 13:26:55,614 - INFO - Balance validated successfully
+2026-02-26 13:26:55,716 - INFO - Closing browser
+2026-02-26 13:27:11,148 - INFO - Launching browser
+2026-02-26 13:27:15,805 - INFO - Manager login clicked
+2026-02-26 13:27:17,658 - INFO - Customer added successfully with customer id :6
+2026-02-26 13:27:18,407 - INFO - Account created successfully with account Number :1016
+2026-02-26 13:27:18,410 - INFO - Closing browser
+2026-02-26 13:27:24,079 - INFO - Launching browser
+2026-02-26 13:27:26,862 - INFO - Starting test for Hermoine Granger
+2026-02-26 13:27:29,117 - INFO - Customer logged in successfully
+2026-02-26 13:27:29,845 - INFO - Deposit Successful
+2026-02-26 13:27:30,555 - INFO - Transaction successful
+2026-02-26 13:27:30,571 - INFO - Balance validated successfully
+2026-02-26 13:27:30,686 - INFO - Starting test for Harry Potter
+2026-02-26 13:27:30,853 - INFO - Customer logged in successfully
+2026-02-26 13:27:31,186 - INFO - Deposit Successful
+2026-02-26 13:27:31,344 - INFO - Transaction successful
+2026-02-26 13:27:31,357 - INFO - Balance validated successfully
+2026-02-26 13:27:31,455 - INFO - Closing browser

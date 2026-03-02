@@ -2,19 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9420f05-23ea-4cdf-9d43-615bfb79ddc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/fourth.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/fourth.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecommerce/second.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/second.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/tests/results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/tests/results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/pages/Login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/pages/Login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/testdata/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/Loginpractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/Loginpractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/alerts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/calendars.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/calendars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/dragdrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/dragdrop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/dropdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/dropdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/dropdownmultiselect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/dropdownmultiselect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/keyboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/keyboardviewpw.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/keyboardviewpw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/links.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/multiselectcheckbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/multiselectcheckbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/multiselectpractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/multiselectpractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/orangehrmmultiselect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/orangehrmmultiselect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/radiobuttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/radiobuttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/waits.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/waits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/webtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/webtable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumPytestPOM/tests/testsuite/windows.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="163" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +63,10 @@
     &quot;accountId&quot;: &quot;6bfb2424-94df-46cf-8506-894270069602&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,17 +78,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KIIT01\PycharmProjects\Selenium\OrangeHRM\tests" />
